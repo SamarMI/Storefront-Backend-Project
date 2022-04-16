@@ -68,7 +68,7 @@ ENV=dev
 
 
 ## Test the app
-- ADD a `database.json` file in the root directory and set the missing `*****` parameters
+- ADD  in a `database.json` file  whichin the root directory and set this  missing `*****` parameters with your own parameters
 ```
 {
     "dev": {
