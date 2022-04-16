@@ -44,31 +44,31 @@ ENV=dev
 - `npm run start` to start the app and get access via http://127.0.0.1:3000
 -  User end points via 
  ```
-    - To create user  via http://127.0.0.1:3000/auth/register [post method]
-    - To login user via http://127.0.0.1:3000/auth/login [post method]
-    - To create another user via  http://127.0.0.1:3000/users [token required] [post method]
-    - To show user via  http://127.0.0.1:3000/users/:id  [token required] [get method]
-    - To index users via  http://127.0.0.1:3000/users [token required][get method]
-    - To delete user via  http://127.0.0.1:3000/users/:id  [token required] [delete method]
+    - To create user using [post method]  via http://127.0.0.1:3000/auth/register 
+    - To login user using [post method] via http://127.0.0.1:3000/auth/login 
+    - To create another user  using [token required] [post method] via  http://127.0.0.1:3000/users 
+    - To show user using [token required] [get method]  via http://127.0.0.1:3000/users/:id  
+    - To index users using [token required][get method] via  http://127.0.0.1:3000/users 
+    - To delete user  using [token required] [delete method] via  http://127.0.0.1:3000/users/:id 
 
  ```
  -  Product end points via 
  ```
     
-    - To create  product via  http://127.0.0.1:3000/prosucts [token required] [post method]
-    - To show product via  http://127.0.0.1:3000/prosucts/:id  [get method]
-    - To index product via  http://127.0.0.1:3000/prosucts     [get method]
-    - To delete product via  http://127.0.0.1:3000/prosucts/:id  [token required] [delete method]
+    - To create  product  using [token required] [post method] via  http://127.0.0.1:3000/prosucts 
+    - To show product  using [get method] via  http://127.0.0.1:3000/prosucts/:id  
+    - To index product  using  [get method] via  http://127.0.0.1:3000/prosucts    
+    - To delete product using token required] [delete method] via  http://127.0.0.1:3000/prosucts/:id  [
 
  ```
  -  Order end points via 
  ```
     
-    - To create  order via  http://127.0.0.1:3000/orders [token required] [post method]
-    - To show order via  http://127.0.0.1:3000/orders/:id [token required]  [get method]
-    - To index orders via  http://127.0.0.1:3000/orders    [token required]  [get method]
-    - To get all  orders for user  http://127.0.0.1:3000/orders/:id  [token required] [get method]
-    - To delete order via  http://127.0.0.1:3000/orders/user_orders/:id  [token required] [delete method]
+    - To create  order  using [token required] [post method] via  http://127.0.0.1:3000/orders 
+    - To show order  using [token required]  [get method] via  http://127.0.0.1:3000/orders/:id 
+    - To index orders  using [token required]  [get method] via  http://127.0.0.1:3000/orders    
+    - To get all  orders for user using [token required] [get method] via  http://127.0.0.1:3000/orders/:id  
+    - To delete order  using [token required] [delete method] via  http://127.0.0.1:3000/orders/user_orders/:id  
 
  ```
 
