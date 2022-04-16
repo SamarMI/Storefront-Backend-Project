@@ -43,7 +43,6 @@ ENV=dev
 ## Start the app
 - `npm run start` to start the app and get access via http://127.0.0.1:3000
 -  User end points via 
- ```
     - To create user using [post method]  via http://127.0.0.1:3000/auth/register 
     - To login user using [post method] via http://127.0.0.1:3000/auth/login 
     - To create another user  using [token required] [post method] via  http://127.0.0.1:3000/users 
@@ -51,18 +50,14 @@ ENV=dev
     - To index users using [token required][get method] via  http://127.0.0.1:3000/users 
     - To delete user  using [token required] [delete method] via  http://127.0.0.1:3000/users/:id 
 
- ```
  -  Product end points via 
- ```
     
     - To create  product  using [token required] [post method] via  http://127.0.0.1:3000/prosucts 
     - To show product  using [get method] via  http://127.0.0.1:3000/prosucts/:id  
     - To index product  using  [get method] via  http://127.0.0.1:3000/prosucts    
     - To delete product using token required] [delete method] via  http://127.0.0.1:3000/prosucts/:id  [
 
- ```
  -  Order end points via 
- ```
     
     - To create  order  using [token required] [post method] via  http://127.0.0.1:3000/orders 
     - To show order  using [token required]  [get method] via  http://127.0.0.1:3000/orders/:id 
@@ -70,7 +65,6 @@ ENV=dev
     - To get all  orders for user using [token required] [get method] via  http://127.0.0.1:3000/orders/:id  
     - To delete order  using [token required] [delete method] via  http://127.0.0.1:3000/orders/user_orders/:id  
 
- ```
 
 
 ## Test the app
