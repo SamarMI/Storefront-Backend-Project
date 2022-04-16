@@ -55,7 +55,7 @@ ENV=dev
     - To create  product  using [token required] [post method] via  http://127.0.0.1:3000/prosucts 
     - To show product  using [get method] via  http://127.0.0.1:3000/prosucts/:id  
     - To index product  using  [get method] via  http://127.0.0.1:3000/prosucts    
-    - To delete product using token required] [delete method] via  http://127.0.0.1:3000/prosucts/:id  [
+    - To delete product using [token required] [delete method] via  http://127.0.0.1:3000/prosucts/:id  
 
  -  Order end points via 
     
